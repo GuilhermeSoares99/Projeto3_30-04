@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web com HTML Semântico e Acessibilidade</title>
+</head>
+<body>
+
+    <header>
+        <h1>Guia do HTML Semântico e Acessibilidade</h1>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#conceito">Conceito</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <article>
+            
+            <section id="conceito">
+                <h2>1. O que é HTML Semântico?</h2>
+                <p>É o uso de tags que descrevem o significado do conteúdo, e não apenas sua aparência. Elas ajudam os leitores de tela a guiar usuários com deficiência visual e facilitam o trabalho dos robôs de busca (SEO).</p>
+                
+                <h3>Vantagens de utilizar a semântica:</h3>
+                <ul>
+                    <li><strong>Acessibilidade:</strong> Essencial para leitores de tela.</li>
+                    <li><strong>Melhor SEO:</strong> Facilita a indexação do Google.</li>
+                    <li><strong>Código mais organizado:</strong> Manutenção simples e limpa.</li>
+                </ul>
+            </section>
+
+            <section id="acessibilidade">
+                <h2>3. Práticas de Acessibilidade na Web</h2>
+                <p>Abaixo vemos um exemplo prático de imagem acessível.</p>
+                
+                <img src="https://via.placeholder.com/600x300" alt="Ilustração gráfica mostrando a conexão entre código limpo, leitores de tela e robôs de busca do Google.">
+            </section>
+
+            <section id="contato">
+                <h2>5. Prática: Formulário Acessível</h2>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">E-mail Corporativo:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <button type="submit">Enviar Inscrição</button>
+                </form>
+            </section>
+
+        </article>
+
+        <aside>
+            <h2>Links Úteis (Pesquisa)</h2>
+            <p>Para aprofundar seus estudos nas atividades propostas nesta unidade, pesquise sobre:</p>
+            <ul>
+                <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener">Diretrizes da WCAG</a></li>
+                <li><a href="https://goveco.github.io/emag/" target="_blank" rel="noopener">Modelo eMAG (Governo Eletrônico)</a></li>
+                <li><a href="https://validator.w3.org/" target="_blank" rel="noopener">Validador W3C Nu HTML</a></li>
+                <li><a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">Auditoria com Google Lighthouse</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Unidade de HTML Semântico, Acessibilidade e SEO. Desenvolvido para fins educacionais.</p>
+    </footer>
+
+</body>
+</html>
